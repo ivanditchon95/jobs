@@ -119,9 +119,9 @@ class User
 		$numRows = $query->num_rows;
 		if($numRows > 0){
 			while($row = $query->fetch_assoc()){
-	            $array[] = $row;
-	        }
-	    return $array; 
+	            		$array[] = $row;
+	        	}
+	    		return $array; 
 		}
 		else{
 			return 0;
