@@ -1,0 +1,50 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 15px 10px;
+    border-bottom: 4px solid #c2c2c2
+}
+.header a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+.header-right {
+    float: right;
+    margin-right: 10px;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 520px;
+}
+table tr td a .logo {
+    margin-right: 10px;
+}
+table {
+    margin-top: 70px;
+}
+table tr label {
+    font-size: 30px;
+}
+table tr td input[type=text]{
+    width: 98%;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 3rem;
+    background-color: #f3f3f3;
+    border-top: 5px solid #ffc60a;
+  }
+  .footer .fa {
+    color: rgb(219, 3, 3);
+  }
+  .footer span {
+    font-size: 20px;
+  }
+  .footer a {
+    text-decoration: none;
+  }
