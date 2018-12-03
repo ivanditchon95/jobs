@@ -312,7 +312,6 @@ class User
 	}
 
 	public function logOut(){
-		session_start();
 		$_SESSION['is_login'] = FALSE;
 		session_destroy();
 		header("location:index.php");
